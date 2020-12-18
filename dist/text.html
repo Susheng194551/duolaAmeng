@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>测试</title>
+</head>
+<body>
+<style id="demo2"></style>
+<div id="demo"></div>
+<div id="buttons">
+  <button id="btnPause">暂停</button>
+  <button id="btnPlay">播放</button>
+  <button id="btnSlow">慢速</button>
+  <button id="btnNormal">中速</button>
+  <button id="btnFast">快速</button>
+</div>
+<style>* {box-sizing: border-box;}
+  *::before, *::after {box-sizing: border-box;}
+  #buttons {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  #buttons > button {
+    margin-bottom: 10px;
+    padding: 4px 8px;
+  }
+  #demo2 {
+    display: none;
+  }
+  #demo {
+    position: fixed;
+    height: 50vh;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow-y: auto;
+  }
+  #demo::-webkit-scrollbar {
+    display: none;
+  }
+  #html {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50vh;
+  }</style>
+<div class="head">
+    <div class="eye left"><div><div></div></div></div>
+    <div class="eye right"><div><div></div></div></div>
+    <div class="nose"><div></div></div>
+    <div class="face"><div></div></div>
+    <div class="mouse"><div></div></div>
+    <div class="huzi">
+    <div class="hz1"></div>
+    <div class="hz2"></div>
+    <div class="hz3"></div>
+    <div class="hz4"></div>
+    <div class="hz5"></div>
+    <div class="hz6"></div>
+</div>
+</div>
+<script src="main.26e29275.js"></script>
+</body>
+</html>
